@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://Dgarbinski.github.io/mma-fight-predictor/sitemap.xml
+Sitemap: https://dgarbinski.github.io/MMA-Fight-Predictor/sitemap.xml
