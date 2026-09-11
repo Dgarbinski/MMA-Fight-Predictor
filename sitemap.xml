@@ -2,12 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dgarbinski.github.io/MMA-Fight-Predictor/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+  <url>
+    <loc>https://dgarbinski.github.io/MMA-Fight-Predictor/ufc-fight-predictions.html</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+  <url>
+    <loc>https://dgarbinski.github.io/MMA-Fight-Predictor/mma-betting-picks.html</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+  <url>
+    <loc>https://dgarbinski.github.io/MMA-Fight-Predictor/dwcs-predictions.html</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+  <url>
+    <loc>https://dgarbinski.github.io/MMA-Fight-Predictor/mma-prediction-model.html</loc>
+    <lastmod>2026-09-11</lastmod>
   </url>
   <url>
     <loc>https://dgarbinski.github.io/MMA-Fight-Predictor/privacy.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <lastmod>2026-09-11</lastmod>
   </url>
 </urlset>
