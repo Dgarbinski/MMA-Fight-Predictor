@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0B0F14">
+  <title>How the MMA Prediction Model Works | UFC Fight Predictor</title>
+  <meta name="description" content="See how MMA Fight Predictor turns fighter and matchup data into UFC winner predictions, confidence scores, and KO/TKO, submission, and decision projections.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://dgarbinski.github.io/MMA-Fight-Predictor/mma-prediction-model.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="How the MMA Prediction Model Works">
+  <meta property="og:description" content="How fighter history and matchup data become UFC predictions, confidence scores, and method projections.">
+  <meta property="og:url" content="https://dgarbinski.github.io/MMA-Fight-Predictor/mma-prediction-model.html">
+  <meta property="og:site_name" content="MMA Fight Predictor">
+  <meta name="twitter:card" content="summary">
+  <meta name="apple-itunes-app" content="app-id=6800535960">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="seo.css">
+  <link rel="icon" type="image/png" href="Icon-iPad-76@2x.png?v=3">
+  <link rel="apple-touch-icon" href="Icon-iPad-76@2x.png?v=3">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Article",
+    "headline":"How the MMA Prediction Model Works",
+    "description":"How MMA Fight Predictor turns fighter history and matchup data into UFC predictions, confidence scores and method projections.",
+    "mainEntityOfPage":"https://dgarbinski.github.io/MMA-Fight-Predictor/mma-prediction-model.html",
+    "author":{"@type":"Organization","name":"MMA Fight Predictor"},
+    "publisher":{"@type":"Organization","name":"MMA Fight Predictor"}
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="MMA Fight Predictor home"><img src="Icon-iPad-76@2x.png?v=3" alt="MMA Fight Predictor icon" width="38" height="38" style="width:38px;height:38px;border-radius:10px;object-fit:cover;display:block;"><span>MMA Fight Predictor</span></a>
+      <nav class="page-nav" aria-label="Primary navigation"><a href="ufc-fight-predictions.html">UFC Predictions</a><a href="mma-betting-picks.html">MMA Betting</a><a href="dwcs-predictions.html">DWCS</a><a href="mma-prediction-model.html">How It Works</a></nav>
+      <a class="button button-small" href="https://apps.apple.com/app/id6800535960" target="_blank" rel="noopener">Get the App</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="article-hero">
+      <div class="container">
+        <div class="breadcrumbs"><a href="index.html">Home</a><span>›</span><span>Prediction Model</span></div>
+        <p class="eyebrow">MODEL & METHODOLOGY</p>
+        <h1>How an MMA matchup becomes a prediction.</h1>
+        <p class="article-deck">MMA Fight Predictor is designed to turn fighter history and matchup context into a simple output: projected winner, confidence percentage, and method-of-victory distribution.</p>
+        <div class="hero-actions"><a class="button" href="https://apps.apple.com/app/id6800535960" target="_blank" rel="noopener">Try the App</a><a class="text-link" href="ufc-fight-predictions.html">See the UFC prediction guide →</a></div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container article-content">
+        <h2>Start with the matchup, not one headline stat</h2>
+        <p>MMA is a multi-phase sport. Striking, wrestling, grappling, pace, durability, finishing ability, defense, experience, and opponent quality can all influence the result. A useful prediction process should avoid treating one impressive statistic as if it explains the whole fight.</p>
+        <p>The model's purpose is to combine available information into a consistent comparison rather than relying on a single narrative such as record, knockout count, or public popularity.</p>
+
+        <h2>Historical fighter and bout information</h2>
+        <p>Past performance provides the base for matchup analysis. Fighter history can reveal patterns in winning, losing, finishing, surviving, controlling positions, and reaching decisions. The most useful history is interpreted in context because statistics accumulated against different levels and styles of opposition are not automatically equivalent.</p>
+
+        <div class="term-grid">
+          <div class="term-card"><strong>Recent performance</strong><p>Recent fights can help show current form while avoiding the assumption that one result defines the fighter.</p></div>
+          <div class="term-card"><strong>Style interaction</strong><p>The key question is not only what each fighter does well, but how those strengths and weaknesses interact.</p></div>
+          <div class="term-card"><strong>Opponent context</strong><p>Statistics mean more when the quality and style of previous opponents are considered.</p></div>
+          <div class="term-card"><strong>Finishing profile</strong><p>KO/TKO, submission, and decision history can help frame likely paths to victory.</p></div>
+        </div>
+
+        <h2>Why matchup-specific analysis matters</h2>
+        <p>A fighter who performs well against strikers may face a completely different problem against a strong wrestler. Likewise, an aggressive grappler can look dominant until matched with an opponent who is difficult to control or submit. Prediction quality depends on comparing fighters against each other rather than ranking them in isolation.</p>
+
+        <h2>Winner confidence</h2>
+        <p>The app converts the matchup into a probability-style confidence score. The score is intended to answer how strongly the model favors its projected winner. It should not be read as certainty or a guarantee of the result.</p>
+        <p>Close fights naturally deserve lower confidence. Clearer model advantages can produce higher confidence. This helps users compare picks across a UFC card without pretending every matchup has the same level of predictability.</p>
+
+        <h2>Method-of-victory projections</h2>
+        <p>Winner probability is only part of the picture. MMA Fight Predictor also presents a method split across KO/TKO, submission, and decision. These projections help describe the expected shape of the matchup and can reveal whether the model sees one finishing path as especially important.</p>
+        <p>The three method values are probabilities, not promises. A fighter may have a strong overall edge while still having multiple plausible ways to win.</p>
+
+        <div class="callout"><strong>Model limitation:</strong> MMA contains randomness and incomplete information. Injuries, game-plan changes, short-notice replacements, judging, cuts, and one decisive exchange can all produce outcomes that historical data cannot perfectly anticipate.</div>
+
+        <h2>Why sportsbook odds are separate from the core prediction</h2>
+        <p>A probability model and a betting market serve different purposes. The prediction estimates a fight outcome; the market assigns a price. Comparing the two can be useful, but the sportsbook line should not be confused with the model's own estimate.</p>
+        <p>For a betting-focused explanation, see <a href="mma-betting-picks.html">MMA betting picks, UFC odds, and implied probability</a>.</p>
+
+        <h2>Why backtesting matters</h2>
+        <p>A prediction method should be evaluated on fights that already happened. Backtesting helps reveal whether a model's ideas generalize beyond a small set of memorable examples. It can also expose issues such as overconfidence, poor calibration, or a method-of-victory distribution that needs adjustment.</p>
+        <p>No historical test guarantees future accuracy, but disciplined evaluation is more useful than judging a model only by its most recent winning or losing streak.</p>
+
+        <h2>What the app is designed to do</h2>
+        <ul>
+          <li>Present a projected winner for supported UFC matchups.</li>
+          <li>Show a confidence percentage for the pick.</li>
+          <li>Show KO/TKO, submission, and decision projections.</li>
+          <li>Make upcoming fight analysis quick to scan on iPhone.</li>
+          <li>Separate stronger model leans from closer matchups.</li>
+        </ul>
+
+        <div class="inline-cta"><div><strong>See the model output on upcoming UFC fights.</strong><p>Download MMA Fight Predictor for winner probabilities, confidence scores, and method projections.</p></div><a class="button" href="https://apps.apple.com/app/id6800535960" target="_blank" rel="noopener">Open App Store</a></div>
+
+        <h2>Continue exploring</h2>
+        <p>Read the <a href="ufc-fight-predictions.html">UFC fight predictions guide</a>, learn how <a href="mma-betting-picks.html">MMA betting odds and implied probability</a> work, or explore <a href="dwcs-predictions.html">DWCS prospects and Contender Series context</a>.</p>
+        <p class="small-note">MMA Fight Predictor is independent prediction software. Outputs are estimates for informational and entertainment purposes and are not guarantees.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid"><div><strong>MMA Fight Predictor</strong><p>Independent MMA and UFC prediction software for iPhone.</p></div><div class="footer-links"><a href="https://apps.apple.com/app/id6800535960" target="_blank" rel="noopener">App Store</a><a href="privacy.html">Privacy</a></div></div>
+    <div class="container footer-resources"><a href="ufc-fight-predictions.html">UFC Predictions</a><a href="mma-betting-picks.html">MMA Betting Picks</a><a href="dwcs-predictions.html">DWCS</a><a href="mma-prediction-model.html">Prediction Model</a></div>
+    <div class="container disclaimer"><p>For informational and entertainment purposes only. Predictions are not guarantees and do not constitute financial or gambling advice.</p><p>© <span id="year"></span> MMA Fight Predictor.</p></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
